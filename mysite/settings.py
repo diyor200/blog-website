@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
-    # 3rd party apps
     'taggit',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,5 @@ EMAIL_HOST_USER = 'dabdulaxatov036@gmail.com'
 EMAIL_HOST_PASSWORD = 'clvkfijykijxluoo'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+SITE_ID = 1
